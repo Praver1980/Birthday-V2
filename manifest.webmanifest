@@ -1,0 +1,18 @@
+{
+  "name": "Jahnavi's Birthday Universe",
+  "short_name": "For Jahnavi",
+  "description": "A birthday surprise made especially for Jahnavi.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#251947",
+  "theme_color": "#251947",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

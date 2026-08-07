@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#251947" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="For Jahnavi" />
+  <link rel="manifest" href="manifest.webmanifest" />
+  <title>Jahnavi’s Birthday Universe ✦</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Fredoka:wght@500;600;700&family=Playfair+Display:ital,wght@0,700;0,800;1,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css?v=11" />
+</head>
+<body>
+  <div class="page-loader" id="pageLoader" role="status" aria-live="polite">
+    <div class="loader-stars" aria-hidden="true"><i>✦</i><i>✧</i><i>★</i><i>✦</i><i>✧</i></div>
+    <p>PREPARING A LITTLE MAGIC FOR</p>
+    <h1>Jahnavi<span>’s</span><br /><em>Birthday Universe</em></h1>
+    <div class="loader-orbit" aria-hidden="true"><b>✦</b></div>
+  </div>
+
+    <div class="opening" id="opening">
+    <div class="opening-stars">✦ &nbsp; ✧ &nbsp; ✦</div>
+    <p>YOU’VE BEEN INVITED TO</p>
+    <h1>Jahnavi’s<br /><i>birthday corner</i></h1>
+    <button id="enterButton" type="button" aria-label="Enter Jahnavi's birthday page with soft music">Enter with soft music <span>♫</span></button>
+  </div>
+<div class="cursor-glow" id="cursorGlow"></div>
+  <div class="confetti-layer" id="confettiLayer" aria-hidden="true"></div>
+  <div class="page">
+    <nav><a href="#home" class="brand">J<span>✦</span></a><p>JAHNAVI’S DAY</p><a href="#letter" class="nav-wish">a note for you →</a></nav>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="hero-orbit orbit-one"></div><div class="hero-orbit orbit-two"></div>
+        <div class="planet p-one">♥</div><div class="planet p-two">✦</div><div class="planet p-three">☻</div>
+        <div class="hero-ticket" aria-hidden="true">
+          <div class="ticket-spark spark-one">✦</div><div class="ticket-spark spark-two">✦</div>
+          <div class="ticket-top"><span>BIRTHDAY ENERGY</span><b>✦</b></div>
+          <div class="ticket-name">JAHNAVI</div>
+          <div class="ticket-cake"><i>✦</i><span>🎂</span><i>✦</i></div>
+          <div class="ticket-bottom"><span>FOR JAHNAVI</span><b>LETS CELEBRATE</b></div>
+        </div>
+        <p class="kicker reveal">TODAY’S THE DAY · <span>HAPPY BIRTHDAY, JAHNAVI</span></p>
+        <h1 class="reveal">Happy<br /><em>Birthday</em><br /><strong>Jahnavi.</strong></h1>
+        <p class="hero-copy reveal">Another year already? Hope today has cake, your favourite people, and lots of moments that make you laugh for no reason.</p>
+        <div class="hero-actions reveal"><button class="primary" id="launchButton" type="button">Start the birthday fun <b>↗</b></button><a href="#letter" class="text-link">read your note <span>↓</span></a></div>
+        <aside class="birthday-deck" aria-label="Birthday control deck">
+          <div class="deck-header"><span><i></i> TODAYS MOOD</span><b>✦</b></div>
+          <div class="deck-profile"><div class="avatar-orbit"><span>J</span></div><div><strong>Jahnavi’s day</strong><small>cake-level happiness</small></div><em>100%</em></div>
+          <div class="wish-meter"><div><span>WISH-O-METER</span><b id="wishLevel">96%</b></div><i><b id="wishFill"></b></i></div>
+          <div class="deck-actions">
+            <button type="button" data-deck-action="sparkle"><span>✦</span> Party!</button>
+            <button type="button" data-deck-action="note"><span>♥</span> Read me</button>
+            <button type="button" data-deck-action="sound" id="soundButton" aria-pressed="false"><span>♫</span> Ta-da!</button>
+          </div>
+        </aside>
+        <div class="scroll-cue"><span></span>KEEP GOING ↓</div>
+      </section>
+
+      <section class="marquee" aria-label="Birthday message"><div>JAHNAVI IS THE MOMENT <span>✦</span> TODAY IS ALL ABOUT YOU <span>✦</span> JAHNAVI IS THE MOMENT <span>✦</span> TODAY IS ALL ABOUT YOU <span>✦</span></div></section>
+
+      <section class="letter-section" id="letter">
+        <div class="section-label"><span>01</span> A LITTLE NOTE FOR YOU</div>
+        <div class="letter-layout">
+          <div class="letter-title"><p>DEAR</p><h2>Jahnavi,</h2><div class="scribble">✿</div></div>
+          <article class="letter-card">
+            <p>I just wanted to say happy birthday and remind you that you’re genuinely one of a kind. Things are better, funnier, and a lot less boring with <b>you</b> around.</p>
+            <p>I hope this year brings you more of the stuff that makes you happy: late laughs, good memories, little wins, and people who make you feel appreciated. Try the things that excite you, change your mind whenever you want to, and don’t forget how capable you are.</p>
+            <p class="letter-closing">Stay funny, curious, and completely yourself. Happy birthday, Jahnavi.</p>
+            <div class="signature">from someone wishing you the best <span>♥</span></div>
+          </article>
+        </div>
+      </section>
+
+
+      <section class="spotlight-section">
+        <div class="section-label"><span>02</span> A SMALL CORNER OF THE UNIVERSE</div>
+        <div class="spotlight-grid">
+          <button class="star-card" id="starCard" type="button" aria-label="Celebrate Jahnavi with a burst of confetti">
+            <div class="star-card-top"><span>JAHNAVI'S</span><b>✦</b><span>DAY</span></div>
+            <div class="name-in-stars">J<span>✦</span>H<span>✦</span>N<span>✦</span>V<span>✦</span>I</div>
+            <p>Some people are easy to spot.<br />They make a little more light.</p>
+            <div class="orbit-dot dot-a"></div><div class="orbit-dot dot-b"></div><div class="orbit-dot dot-c"></div>
+          </button>
+          <div class="spotlight-copy">
+            <p class="hand-note">For your new year...</p>
+            <h2>I hope you get<br /><i>more of this.</i></h2>
+            <div class="hope-list">
+              <div><b>01</b><span>Days when you feel happy for no big reason.</span></div>
+              <div><b>02</b><span>People who are kind, real, and fun to be around.</span></div>
+              <div><b>03</b><span>Enough courage to try things before you feel ready.</span></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="wish-section">
+        <div class="section-label light"><span>02</span> A FEW WISHES FOR YOU</div>
+        <h2>Pick a<br /><i>birthday wish.</i></h2>
+        <p class="section-intro">I put a few good wishes in these. Open whichever one you want.</p>
+        <div class="presents" id="presents">
+          <button class="present coral" data-wish="I hope this year gives you more stories that start with “you won’t believe what happened…”"><span>✦</span><i></i></button>
+          <button class="present yellow" data-wish="I hope you say yes to the thing you’ve been a little nervous to try."><span>♥</span><i></i></button>
+          <button class="present purple" data-wish="Good friends, good food, and lots of days that turn out better than planned."><span>☺</span><i></i></button>
+        </div>
+        <div class="wish-display" id="wishDisplay" role="status" aria-live="polite">Pick one — there’s no wrong choice.</div>
+      </section>
+
+      <section class="reasons-section">
+        <div class="section-label"><span>03</span> WHY TODAY IS A BIG DEAL</div>
+        <div class="reasons-head"><h2>Things that make<br /><i>you, you.</i></h2><p>And honestly, that’s a pretty good reason to celebrate.</p></div>
+        <div class="reason-grid">
+          <article class="reason-card r1"><span>01</span><h3>Your laugh</h3><p>It can turn a normal moment into something people remember.</p><b>☀</b></article>
+          <article class="reason-card r2"><span>02</span><h3>Your ideas</h3><p>You have so much ahead of you, and it’ll be fun to see where you take it.</p><b>↗</b></article>
+          <article class="reason-card r3"><span>03</span><h3>Your vibe</h3><p>You don’t need to be like everyone else. Being Jahnavi works just fine.</p><b>✦</b></article>
+        </div>
+      </section>
+
+
+      <section class="time-capsule">
+        <div class="capsule-inner">
+          <p class="kicker">A TINY TIME CAPSULE</p>
+          <h2>Save this feeling<br />for a <i>rainy day.</i></h2>
+          <p class="capsule-intro">There will be days that feel boring or hard. On those days, remember: you have already made it through every bad day so far. You are doing better than you think.</p>
+          <button class="capsule-button" id="capsuleButton" type="button" aria-expanded="false" aria-controls="secretNote">Open the secret note <span>✦</span></button>
+          <div class="secret-note" id="secretNote" role="status">You do not need to have everything figured out. Just keep going, keep learning, and let yourself enjoy the good parts. You have time. <b>Happy birthday, Jahnavi.</b></div>
+        </div>
+        <div class="floating-notes" aria-hidden="true"><i>MORE CAKE</i><i>BIG DREAMS</i><i>GOOD DAYS</i></div>
+      </section>
+
+      <section class="memory-section" id="memories">
+        <div class="section-label"><span>04</span> THE MEMORY CUBE</div>
+        <div class="memory-layout">
+          <div class="memory-copy"><p class="kicker">ADD PHOTOS WHEN YOU’RE READY</p><h2>Six little sides<br />of <i>happy.</i></h2></div>
+          <div class="cube-stage" id="cubeStage" aria-label="Interactive photo memory cube" tabindex="0"><div class="photo-cube" id="photoCube"><figure class="cube-face front"><img src="images/cube/img1.jpg" alt="Jahnavi memory one" width="1200" height="1200" loading="lazy" /><figcaption>01 ✦</figcaption></figure><figure class="cube-face back"><img src="images/cube/img2.jpg" alt="Jahnavi memory two" width="1200" height="1200" loading="lazy" /><figcaption>02 ♥</figcaption></figure><figure class="cube-face right"><img src="images/cube/img3.jpg" alt="Jahnavi memory three" width="1200" height="1200" loading="lazy" /><figcaption>03 ☻</figcaption></figure><figure class="cube-face left"><img src="images/cube/img4.jpg" alt="Jahnavi memory four" width="1200" height="1200" loading="lazy" /><figcaption>04 ✦</figcaption></figure><figure class="cube-face top"><img src="images/cube/img5.jpg" alt="Jahnavi memory five" width="1200" height="1200" loading="lazy" /><figcaption>05 ★</figcaption></figure><figure class="cube-face bottom"><img src="images/cube/img6.jpg" alt="Jahnavi memory six" width="1200" height="1200" loading="lazy" /><figcaption>06 ♥</figcaption></figure></div></div>
+        </div>
+      </section>
+      <section class="cake-section">
+        <p class="kicker">ONE LAST BIRTHDAY THING</p>
+        <h2>Make a wish.<br /><i>Light the sky.</i></h2>
+        <p>Think of one thing you really want — big or small — then tap the candle.</p>
+        <button class="big-cake" id="cakeButton" aria-label="Light the birthday candle"><span class="candle"><i></i></span><span class="frosting"></span><span class="cake-face">◡</span><span class="cake-sprinkles">✦ ♥ ✦</span></button>
+        <div class="cake-message" id="cakeMessage" role="status">Okay, wish officially sent. ✦</div>
+      </section>
+      <section class="finale-section" id="finale">
+        <div class="firework firework-one" aria-hidden="true"></div><div class="firework firework-two" aria-hidden="true"></div><div class="firework firework-three" aria-hidden="true"></div><div class="firecracker-set" aria-hidden="true"><div class="firecracker cracker-coral"><i></i></div><div class="firecracker cracker-gold"><i></i></div><div class="firecracker cracker-mint"><i></i></div></div>
+        <p class="kicker">ONE LAST SURPRISE</p><span class="finale-star">✦</span>
+        <h2>Happiest<br /><i>birthday,</i><br />Jahnavi!</h2>
+        <p>May this year be full of your kind of magic.</p>
+        <button class="finale-button" id="finaleButton" type="button">Launch the fireworks <span>✦</span></button>
+      </section>    </main>
+    <footer><spa````````````````````````````n>J</span><p>FOR JAHNAVI, ON HER BIRTHDAY<br /><small>made with a lot of good wishes</small></p><b>✦</b></footer>
+  </div>
+  <button class="back-arrow" id="backArrow" type="button" aria-label="Go to the previous birthday scene"><span>←</span><small>go back</small></button>
+  <script src="script.js?v=14"></script>
+</body>
+</html>
